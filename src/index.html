@@ -8,6 +8,38 @@
     <meta name="description" content="An example of resilient forms.">
     <title>Resilient Forms Example</title>
     <link rel="manifest" href="manifest.json">
+    <script>
+      window.form = [
+        {
+          component: 'Text',
+          props: {
+            label: 'First Name',
+            field: 'first_name',
+          },
+        },
+        {
+          component: 'Text',
+          props: {
+            label: 'Last Name',
+            field: 'last_name',
+          },
+        },
+        {
+          component: 'Text',
+          props: {
+            label: 'Email',
+            field: 'email',
+          },
+        },
+        {
+          component: 'TextArea',
+          props: {
+            label: 'Message',
+            field: 'message',
+          },
+        },
+      ]
+    </script>
   </head>
   <body>
   </body>

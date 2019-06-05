@@ -170,6 +170,14 @@ export const theme = {
 
 export const globalStyles = {
   '*, ::before, ::after': { boxSizing: 'inherit' },
-  'html': { boxSizing: 'border-box' },
-  body: { fontFamily: 'sans-serif' },
+  'html': {
+    boxSizing: 'border-box',
+    height: '100%',
+  },
+  body: {
+    backgroundColor: theme.colors.blue[0],
+    fontFamily: 'sans-serif',
+    height: '100%',
+    margin: 0,
+  },
 }
