@@ -10,5 +10,5 @@ This example uses:
 
 * Preact as the frontend
 * Informed as a form controller
-* `idb--keyval` for storing key/values to IndexedDb
+* `idb-keyval` for storing key/values to IndexedDb
 * Emotion + Styled System (Babel plugin)
